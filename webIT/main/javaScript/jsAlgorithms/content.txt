@@ -1,0 +1,65 @@
+Data Structures:
+
+    Stacks: A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. Elements can be added or removed only from the top of the stack.
+
+    Queues: A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. Elements are added at the rear and removed from the front.
+
+    Priority Queues: A priority queue is an abstract data type that stores elements along with their priority values. The element with the highest priority is dequeued first.
+
+    Trie: A trie, also known as a prefix tree, is a tree-like data structure used to efficiently store and retrieve strings. It is particularly useful for fast prefix-based searches.
+
+    Linked Lists: A linked list is a data structure in which each element (node) contains a value and a reference to the next node. It allows for efficient insertion and deletion at any position but has slower access time compared to arrays.
+
+    Singly Linked Lists: In a singly linked list, each node has a reference to the next node, forming a unidirectional chain.
+
+    Doubly Linked Lists: In a doubly linked list, each node has references to both the next and previous nodes, enabling bidirectional traversal.
+
+    Dynamic Arrays: Dynamic arrays are resizable arrays that automatically grow or shrink in size as elements are added or removed. They provide constant-time access to elements but may require occasional resizing, which can be a costly operation.
+
+    Linked List vs. Array List: A linked list and an array list both store elements, but they have different characteristics. A linked list allows for efficient insertion and deletion at any position but has slower access time since traversing the list is required. In contrast, an array list provides faster access to elements but has slower insertion and deletion time, as it requires shifting elements to accommodate changes in size.
+
+Algorithms:
+
+    Big O notation: Big O notation is used to describe the performance or complexity of an algorithm. It provides an upper bound on the growth rate of the algorithm's time or space requirements as the input size increases.
+
+    Linear search: Linear search is a simple search algorithm that sequentially checks each element in a list until a match is found or the end of the list is reached. It has a time complexity of O(n), where n is the number of elements in the list.
+
+    Binary search: Binary search is an efficient search algorithm that works on sorted lists. It repeatedly divides the search space in half by comparing the middle element with the target value, reducing the search range. It has a time complexity of O(log n).
+
+    Interpolation search: Interpolation search is an improved version of binary search that works on uniformly distributed sorted lists. It calculates the probable position of the target element based on its value and the range of values in the list. It has an average time complexity of O(log log n), but its worst-case time complexity is O(n).
+
+    Bubble sort: Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order. It has a time complexity of O(n^2).
+
+    Selection sort: Selection sort is a sorting algorithm that repeatedly finds the minimum element from the unsorted part of the list and swaps it with the first unsorted element. It has a time complexity of O(n^2).
+
+    Insertion sort: Insertion sort is a sorting algorithm that builds the final sorted list one element at a time. It iterates through the list, comparing each element to the sorted portion and inserting it at the correct position. It has a time complexity of O(n^2), but it performs well on small or partially sorted lists.
+
+    Recursion: Recursion is a programming technique where a function calls itself to solve subproblems. It breaks down a complex problem into smaller, simpler instances until a base case is reached. Recursion is commonly used in various algorithms and data structures.
+
+    Merge sort: Merge sort is a divide-and-conquer sorting algorithm that recursively divides the list into smaller sublists, sorts them, and then merges the sorted sublists to obtain the final sorted list. It has a time complexity of O(n log n).
+
+    Quick sort: Quick sort is another divide-and-conquer sorting algorithm that selects a pivot element, partitions the list into two sublists (elements smaller than the pivot and elements greater than the pivot), and recursively sorts the sublists. It has an average time complexity of O(n log n), but its worst-case time complexity is O(n^2).
+
+    Hash Tables: Hash tables, also known as hash maps, are data structures that store key-value pairs. They use a hash function to map keys to an array index, allowing efficient insertion, deletion, and retrieval of values. The time complexity for operations in a hash table is typically O(1) on average, but it can degrade to O(n) in the worst case.
+
+Graphs:
+
+    Graphs intro: A graph is a non-linear data structure consisting of nodes (vertices) connected by edges. It is used to represent relationships between objects. Graphs can be directed (edges have a specific direction) or undirected (edges have no direction).
+
+    Adjacency matrix: An adjacency matrix is a square matrix representation of a graph. It stores the connections between vertices using a two-dimensional array, where each cell represents an edge.
+
+    Adjacency list: An adjacency list is a data structure that represents a graph as an array of linked lists or arrays. Each vertex in the graph has a list of its adjacent vertices.
+
+Graph Traversal:
+
+    Depth First Search (DFS): DFS is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It uses a stack or recursion to keep track of the vertices to visit.
+
+    Breadth First Search (BFS): BFS is a graph traversal algorithm that explores all vertices of a graph at the same level before moving to the next level. It uses a queue to keep track of the vertices to visit.
+
+Tree Data Structure:
+
+    Tree data structure intro: A tree is a hierarchical data structure composed of nodes. Each node can have zero or more child nodes, except for the root node, which has no parent. Trees are widely used in various applications and algorithms.
+
+    Binary search tree (BST): A binary search tree is a binary tree where the value of each node is greater than all values in its left subtree and less than all values in its right subtree. It allows for efficient searching, insertion, and deletion of elements with an average time complexity of O(log n), but the tree's shape can affect these operations.
+
+    Tree traversal: Tree traversal refers to the process of visiting or accessing all nodes in a tree data structure. There are different traversal techniques, including in-order, pre-order, and post-order traversal, which determine the order in which nodes are visited. These techniques are often implemented recursively.

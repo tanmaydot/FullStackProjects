@@ -1,0 +1,9 @@
+# server cmds
+
+npm i -g nodemon
+npm i express body-parser bcrypt cors dotenv gridfs-stream multer-gridfs-storage helmet morgan jsonwebtoken mongoose
+npm init -y
+
+# client cmds 
+
+npm i react-redux @reduxjs/toolkit redux-persist react-dropzone dotenv formik yup react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material
